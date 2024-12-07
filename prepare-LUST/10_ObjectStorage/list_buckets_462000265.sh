@@ -25,4 +25,7 @@ s3cmd -c ~/.s3cfg-lumi-462000265 info s3://intro-training.private/private-in-pri
 
 s3cmd -c ~/.s3cfg-lumi-462000265 info s3://intro-training.public/HTML/public.html
 s3cmd -c ~/.s3cfg-lumi-462000265 info s3://intro-training.private/HTML/private.html
+
+s3cmd -c ~/.s3cfg-lumi-462000265 info s3://intro-training.public/HTML/shared.html
+s3cmd -c ~/.s3cfg-lumi-462000265 info s3://intro-training.private/HTML/shared.html
 set -x
