@@ -1,5 +1,7 @@
 #! /bin/bash
 
+cd ..
+
 # We really want GNU tar which is the tar command on Linux, but, e.g., on BSD-derived 
 # OSes like macOS it needs to be installed separately and the BSD tar does not offer 
 # the options we want.
