@@ -26,5 +26,5 @@ fi
 echo -e "\nNow generating $tarfile and $tarfile.bz2...\n"
 $TAR -vcf $tarfile \
     --exclude "solution*.sh" --exclude "*.x" --exclude ".ptp*" --exclude "slurm*.out" --exclude  ".DS_Store" \
-    LICENSE CPE EasyBuild
+    LICENSE CPE EasyBuild ObjectStorage
 bzip2 --keep -9 $tarfile
