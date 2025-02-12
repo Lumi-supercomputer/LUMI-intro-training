@@ -1,5 +1,10 @@
 #! /usr/bin/env bash
 
+if [ $# -ne 1 ]
+then
+   echo "This script needs an argument: The training project that needs access to some objects."
+   exit
+fi
 project="$1"
 
 # Uncomment on LUMI, but when doing this on your laptop you won't have
