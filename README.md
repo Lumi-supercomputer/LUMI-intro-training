@@ -37,5 +37,6 @@ CPU billing units while others need GPU billing units). To this end:
 
 **Note:** The `prepare-LUST` subdirectory contains scripts needed by LUST to set up
 the exercises on LUMI. They are not meant for regular users, so you can simply ignore
-them.
+them. These directories contain their own `README.md` files with instructions on how to
+set up the exercises.
  

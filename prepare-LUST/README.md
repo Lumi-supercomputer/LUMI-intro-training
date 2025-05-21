@@ -13,3 +13,5 @@
 
 -   10_ObjectStorage: Scripts to create the necessary buckets and objects for the
     exercises on LUMI-O.
+
+    See the instructions in that directory on how to use them.
